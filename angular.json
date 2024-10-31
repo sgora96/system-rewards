@@ -24,7 +24,8 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": "dist/system-rewards",
+                        "outputPath": "docs",
+                        "baseHref": "system-rewards",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
